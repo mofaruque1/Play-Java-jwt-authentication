@@ -12,3 +12,4 @@ libraryDependencies ++= Seq(
   javaWs,
   "io.jsonwebtoken" % "jjwt" % "0.6.0"
 )
+libraryDependencies += filters
