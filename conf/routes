@@ -27,13 +27,15 @@ POST    /return                    controllers.JSONController.returnObject
 POST    /catch                     controllers.JSONController.catchObject
 
 # AuthController  Created Omor by Faruque
-POST    /login                     controllers.AuthController.login()
+#POST    /login                     controllers.AuthController.login()
 
-GET    /authtoken                  controllers.AuthController.returnToken()
+#GET    /authtoken                  controllers.AuthController.returnToken()
 
-POST    /validate                  controllers.AuthController.validateToken()
+#POST    /validate                  controllers.AuthController.validateToken()
 
 POST    /authenticate              controllers.AuthController.authenticate()
 
-GET    /authenticateget              controllers.AuthController.authenticateGet()
+PUT		/setreminderdate				controllers.AuthController.setReminerDays()
+
+#GET    /authenticateget              controllers.AuthController.authenticateGet()
 
